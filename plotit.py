@@ -1,5 +1,9 @@
 #
 # Use pyroot for simple ROOT things
+# May need to be careful about whether 
+# we use python2 or python3.
+# On my laptop, pyroot works with python2 
+# In the computer lab, it seems to work with python3.
 #
 import ROOT
 
