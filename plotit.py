@@ -13,8 +13,8 @@ with open("normal.dat") as input_file:
        h1.Fill(float(line))
 
 h1.Print()
-print "Mean = ",h1.GetMean()," +- ",h1.GetMeanError()
-print "RMS  = ",h1.GetRMS(), " +- ",h1.GetRMSError()
+#print "Mean = ",h1.GetMean()," +- ",h1.GetMeanError()
+#print "RMS  = ",h1.GetRMS(), " +- ",h1.GetRMSError()
 c1 = ROOT.TCanvas("c1","c1")
 h1.Draw()
 c1.Print("h1.pdf")
