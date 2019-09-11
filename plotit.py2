@@ -5,6 +5,8 @@
 # On my laptop, pyroot works with python2 
 # In the computer lab, it seems to work with python3.
 #
+# Python2 version
+#
 import ROOT
 
 # Initialize output histogram file
